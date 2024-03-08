@@ -1,0 +1,20 @@
+.bonus-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	margin-top: 20px;
+	margin-bottom: 3rem;
+}
+.bonus-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+}
+.company-row {
+	margin: 3rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 80%;
+}

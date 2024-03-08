@@ -1,0 +1,62 @@
+.service-card {
+	width: 190px;
+	height: 254px;
+	background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+	border-radius: 20px;
+	transition: all 0.3s;
+}
+.service-card2 {
+	width: 190px;
+	height: 254px;
+	background-color: #1a1a1a;
+	border-radius: 10px;
+	transition: all 0.2s;
+}
+
+.service-card2:hover {
+	transform: scale(0.98);
+	border-radius: 20px;
+}
+
+.service-card:hover {
+	box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+}
+.service-card-box {
+	margin: 2rem 10rem;
+	display: flex;
+	flex-direction: row;
+	gap: 3rem;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.Service-page {
+	margin-top: 2rem;
+	width: 100vw;
+}
+.UsVsOthers-heading {
+	width: 100%;
+	/* border: 2px solid  red; */
+	font-size: 62px;
+	margin-top: 4rem;
+	font-weight: bolder;
+	color: #fff;
+	font-family: "Segoe UI", sans-serif;
+}
+.service-card2 {
+	font-family: "Segoe UI", sans-serif;
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	text-align: left;
+	align-items: center;
+}
+.service-card2 img {
+	width: 80%;
+	margin-top: 2rem;
+}
+.service-card2 p {
+	font-size: 14px;
+	align-self: flex-start;
+	margin-left: 9px;
+}

@@ -1,0 +1,14 @@
+.samples {
+	margin-top: 5rem;
+	width: 80vw;
+}
+.samples video {
+	height: 35vw;
+	margin: 0.5rem;
+
+	/* gap: 10rem; */
+	border: 1px solid white;
+}
+.samples video:hover {
+	cursor: pointer;
+}

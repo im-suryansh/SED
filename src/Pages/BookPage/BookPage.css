@@ -1,0 +1,25 @@
+.BookPage {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10rem;
+}
+.BookPage h1 {
+	background: -webkit-linear-gradient(0deg, #2954a3, #61dea2);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.BookPage-text {
+	width: 60vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+}
+.BookPage-text p {
+	font-size: 1.2rem;
+	line-height: 2.2rem;
+}

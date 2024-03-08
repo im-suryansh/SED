@@ -1,0 +1,26 @@
+.UsVsOthers-heading {
+	width: 100%;
+	/* border: 2px solid  red; */
+	font-size: 62px;
+	margin-top: 4rem;
+	font-weight: bolder;
+	color: #fff;
+	font-family: "Segoe UI", sans-serif;
+}
+
+.UsVsOthers-page {
+	width: 100vw;
+}
+.difference-heading {
+	font-size: 100px;
+	font-weight: bolder;
+	color: #fff;
+	font-family: "Segoe UI", sans-serif;
+}
+.cross li {
+	list-style-image: url("../../assets/wrong.svg");
+}
+
+.wrong li {
+	list-style-image: url("../../assets/correct.svg");
+}

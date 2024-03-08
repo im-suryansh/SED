@@ -1,0 +1,111 @@
+.home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	/* width: 100%; */
+	height: 100vh;
+	flex-direction: column;
+	background-color: #0d0d0f;
+}
+.home-heading {
+	font-size: 62px;
+	font-weight: bolder;
+	color: #fff;
+	font-family: "Segoe UI", sans-serif;
+}
+.home-button {
+	text-decoration: none;
+	position: relative;
+	border: none;
+	font-size: 14px;
+	font-family: inherit;
+	cursor: pointer;
+	color: #fff;
+	width: 12em;
+	height: 3em;
+	line-height: 2em;
+	text-align: center;
+	background: linear-gradient(90deg, #61dea2, #2954a3 50%);
+	background-size: 300%;
+	border-radius: 30px;
+	z-index: 1;
+}
+
+.home-button:hover {
+	animation: ani 8s linear infinite;
+	border: none;
+}
+
+@keyframes ani {
+	0% {
+		background-position: 0%;
+	}
+
+	100% {
+		background-position: 400%;
+	}
+}
+.stroke {
+	/* -webkit-text-stroke: 2px #fff;
+	color: #000;
+	font-size: 62px;
+	font-weight: bolder; */
+	font-family: "Segoe UI", sans-serif;
+}
+.home-button:before {
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index: -1;
+	background: linear-gradient(90deg, #61dea2, #2954a3 40%);
+	background-size: 400%;
+	border-radius: 35px;
+	transition: 1s;
+}
+
+.home-button:hover::before {
+	filter: blur(20px);
+}
+
+.home-button:active {
+	background: linear-gradient(32deg, #61dea2, #2954a3 50%);
+}
+
+.home-buttons {
+	margin-top: 2rem;
+	width: 50vw;
+	display: flex;
+	justify-content: space-evenly;
+}
+.ellipse {
+	/* border: 2px solid red; */
+	position: absolute;
+	top: 8rem;
+	width: 111px;
+	height: auto;
+	right: 4rem;
+}
+.ellipse1 {
+	overflow: none;
+	/* border: 2px solid red; */
+	position: absolute;
+	bottom: -10rem;
+	opacity: 0.9;
+	width: 630px;
+	height: auto;
+	right: -10rem;
+}
+.ellipse2 {
+	width: 167px;
+	height: auto;
+	position: absolute;
+	/* border: 2px solid red; */
+	top: 15rem;
+	right: 4rem;
+}

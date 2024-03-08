@@ -1,0 +1,13 @@
+.bluebg {
+	position: absolute;
+	top: 0vw;
+	z-index: -1;
+	opacity: 0.2;
+	left: 10rem;
+}
+.Founder-page {
+	position: relative;
+	align-items: center;
+	height: auto;
+	margin-bottom: 10rem;
+}

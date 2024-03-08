@@ -1,0 +1,69 @@
+.ScrollHover {
+	width: 100%;
+	margin: 0;
+}
+.ScrollHover-page {
+	width: 90vw;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+
+	justify-content: space-evenly;
+}
+
+.screen {
+	margin: 0;
+	border: 1px solid white;
+
+	background: #000;
+	/* border-radius: 3% 3% 0.5% 0.5% / 5%; */
+
+	/* for aspect ratio */
+	/* position: relative; */
+	width: 100%;
+}
+
+.viewport {
+	/* width: 30%; */
+	height: 30rem;
+	gap: 1rem;
+
+	/* position: absolute; */
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+
+	background: #333;
+}
+
+/* Screenshot Hover Scroll Additions
+-------------------------------------------------------------- */
+
+.ScrollHover .viewport {
+	transition: background-position 3s ease;
+	background-position: 0 0;
+	background-size: 100% auto;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.ScrollHover:hover .viewport {
+	background-position: 0 100%;
+}
+
+.ScrollHover .viewport:after {
+	background: radial-gradient(
+		circle at right bottom,
+		transparent 75%,
+		rgba(255, 255, 255, 0.05) 75%,
+		transparent
+	);
+	bottom: 0;
+	content: "";
+	left: 0;
+	/* position: absolute; */
+	right: 0;
+	top: 0;
+}

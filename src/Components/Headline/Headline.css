@@ -1,0 +1,42 @@
+.marquee {
+	height: 150px;
+	width: 1720px;
+	overflow: hidden;
+	position: relative;
+}
+
+.marquee div {
+	display: block;
+	width: 200%;
+	height: 150px;
+	position: absolute;
+	overflow: hidden;
+	-webkit-animation: marquee 10s linear infinite;
+	animation: marquee 10s linear infinite;
+}
+
+.marquee span {
+	float: left;
+	width: 50%;
+	font-size: 80px;
+	padding-top: 30px;
+	letter-spacing: 2px;
+}
+
+@-webkit-keyframes marquee {
+	0% {
+		left: 0;
+	}
+	100% {
+		left: -100%;
+	}
+}
+
+@keyframes marquee {
+	0% {
+		left: 0;
+	}
+	100% {
+		left: -100%;
+	}
+}
